@@ -1,0 +1,32 @@
+# 密钥与本地环境
+.env
+.env.*
+!.env.example
+
+# 个人画像（从 example 复制后填写）
+配置/画像.json
+
+# 本地真实投递批次与个人产出
+日期/
+进入面试/
+打招呼/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+
+# 临时导出
+*.log
+_tmp/
+过程归档/笔试*

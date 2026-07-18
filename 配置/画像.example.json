@@ -1,0 +1,50 @@
+{
+  "_说明": "复制本文件为 画像.json，再填入你自己的信息。画像.json 已被 .gitignore，不会进仓库。",
+  "name": "示例用户",
+  "summary": "优先线上/远程兼职或实习；熟练使用 Word、Excel、Office、WPS、Notion、飞书；AI / Cursor / Agent / API 相关岗位可投；同时优先测试/QA/自动化及知识库运维方向。本科在读，每周约 3–4 天亦可。",
+  "education": {
+    "current": "本科在读（年级按实际填写）",
+    "acceptable_requirements": ["不限", "大专", "本科"],
+    "excluded_requirements": ["研究生", "硕士", "博士"],
+    "unknown_policy": "保留但标记待核验"
+  },
+  "keywords": {
+    "high": [
+      "测试", "QA", "质量", "自动化", "软件测试", "功能测试", "回归",
+      "移动端", "Android", "Flutter", "缺陷", "用例", "真机",
+      "AI", "Cursor", "API", "Agent", "知识库", "办公自动化",
+      "Word", "Excel", "Office", "WPS", "Notion", "飞书", "Lark", "文档"
+    ],
+    "mid": [
+      "Python", "脚本", "Git", "产品", "助理", "数据分析", "运营助理",
+      "项目助理", "办公", "前端", "开发", "小程序", "自动化流程",
+      "流程自动化", "业务", "流程", "效率", "工具", "信息化",
+      "兼职", "线上兼职", "远程兼职", "表格", "SOP", "知识管理",
+      "语雀", "Prompt", "RPA"
+    ],
+    "low": [
+      "新媒体", "剪辑", "教培", "辅导", "主播", "销售", "客服"
+    ]
+  },
+  "score_weights": {
+    "high": 30,
+    "mid": 12,
+    "low": -8,
+    "accept_freshman_sophomore": 15,
+    "explicit_remote": 10,
+    "can_convert": 5,
+    "unpaid": -20
+  },
+  "buckets": {
+    "priority_min": 40,
+    "try_min": 15
+  },
+  "validated_job_types": [
+    {
+      "name": "AI知识库/知识库运维",
+      "evidence": "某知识库运维类岗位笔试通过（请改成你自己的验证证据）",
+      "status": "示例：已完成面试 / 等待结果",
+      "recorded_at": "YYYY-MM-DD"
+    }
+  ]
+}

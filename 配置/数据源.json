@@ -1,0 +1,56 @@
+{
+  "shixiseng": {
+    "enabled": true,
+    "base": "https://www.shixiseng.com",
+    "api": "https://www.shixiseng.com/app/interns/search/v2",
+    "request_delay_sec": 0.8,
+    "page_size": 20,
+    "remote_only": true,
+    "searches": [
+      {"keyword": "远程兼职", "publishTime": "week", "sortType": "new", "pages": 4},
+      {"keyword": "线上兼职", "publishTime": "week", "sortType": "new", "pages": 4},
+      {"keyword": "远程办公", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "远程实习", "publishTime": "week", "sortType": "new", "pages": 5},
+      {"keyword": "Excel 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "Word 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "办公助理 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "文档 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "Notion", "publishTime": "week", "sortType": "new", "pages": 2},
+      {"keyword": "飞书", "publishTime": "week", "sortType": "new", "pages": 2},
+      {"keyword": "知识库 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "AI 远程", "publishTime": "week", "sortType": "new", "pages": 4},
+      {"keyword": "AI助理", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "Cursor", "publishTime": "week", "sortType": "new", "pages": 2},
+      {"keyword": "API 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "Agent 远程", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "测试 远程", "publishTime": "week", "sortType": "new", "pages": 4},
+      {"keyword": "QA", "publishTime": "week", "sortType": "new", "pages": 3},
+      {"keyword": "自动化测试 远程", "publishTime": "week", "sortType": "new", "pages": 3}
+    ]
+  },
+  "boss": {
+    "enabled": true,
+    "mode": "detail_links_only",
+    "request_delay_sec": 1.5,
+    "links_file": "Boss待抓链接.txt",
+    "note": "不扫描搜索页；仅抓取人工粘贴的详情链接。"
+  },
+  "lagou": {
+    "enabled": true,
+    "mode": "public_search_pages",
+    "max_pages": 2,
+    "request_delay_sec": 1.5,
+    "search_urls": [
+      "https://www.lagou.com/wn/jobs?kd=%E8%BF%9C%E7%A8%8B%E5%AE%9E%E4%B9%A0",
+      "https://www.lagou.com/wn/jobs?kd=AI%E8%BF%9C%E7%A8%8B",
+      "https://www.lagou.com/wn/jobs?kd=%E5%8A%9E%E5%85%AC%E5%8A%A9%E7%90%86%E8%BF%9C%E7%A8%8B",
+      "https://www.lagou.com/wn/jobs?kd=%E7%9F%A5%E8%AF%86%E5%BA%93%E8%BF%9C%E7%A8%8B"
+    ],
+    "note": "仅尝试公开搜索页 1-2 页；解析失败写说明与空 jsonl，不伪造结果。"
+  },
+  "verify": {
+    "request_delay_sec": 0.8,
+    "timeout_sec": 12,
+    "max_workers": 4
+  }
+}

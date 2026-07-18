@@ -1,0 +1,2 @@
+{"run_id": "demo-batch", "platform": "shixiseng", "job_id": "demo_001", "title": "产品助理", "company": "示例智能硬件公司", "link": "https://example.com/job/demo-product-assistant", "match_score": 76, "note": "优先：确认远程带教与补贴"}
+{"run_id": "demo-batch", "platform": "boss", "job_id": "demo_003", "title": "AI Agent开发与提示词工程", "company": "示例 Agent 公司", "link": "https://example.com/job/demo-agent-prompt", "match_score": 86, "note": "先问无付费、成果标准"}
